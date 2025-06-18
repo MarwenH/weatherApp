@@ -55,8 +55,6 @@ export function WeatherProvider({ children }) {
   const fetchWeatherByLocation = (unit) => {
     dispatch({ type: "setCityName", payload: null });
 
-    console.log(unit);
-
     if (!navigator.geolocation) {
       dispatch({ type: "setError", payload: "Geolocation not supported." });
       return;

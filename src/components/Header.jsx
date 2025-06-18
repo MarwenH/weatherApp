@@ -19,8 +19,6 @@ const Header = () => {
     setIsOpen(false);
   };
 
-  console.log(isOpen);
-
   return (
     <>
       <div className="grid max-md:grid-cols-1 grid-cols-2 gap-4 mb-10 items-center">
